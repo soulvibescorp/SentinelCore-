@@ -78,4 +78,3 @@ if __name__ == "__main__":
     config = load_config()
     print("Current Config:", config)
     print("Hash test (sha256):", hash_string("SentinelCore"))
-
