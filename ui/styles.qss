@@ -1,1 +1,20 @@
+QWidget {
+    background-color: #0f1117;
+    color: #ffffff;
+    font-family: 'Consolas';
+}
+
+QPushButton {
+    background-color: #111927;
+    color: #00ffd5;
+    border: 1px solid #00ffd5;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #00ffd5;
+    color: #000000;
+}
 
