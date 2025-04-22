@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SentinelCore Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>🛰️ SentinelCore Monitor</h1>
+      <span class="status-indicator">System: <span id="system-status">ACTIVE</span></span>
+    </header>
+
+    <div class="grid">
+
+      <section class="card" id="firewall-card">
+        <h2>🧱 Firewall Activity</h2>
+        <div id="firewall-log">Loading...</div>
+      </section>
+
+      <section class="card" id="antivirus-card">
+        <h2>🛡️ Antivirus Scans</h2>
+        <div id="av-log">Loading...</div>
+      </section>
+
+      <section class="card" id="encryption-card">
+        <h2>🔐 Encryption Points</h2>
+        <div id="enc-log">Loading...</div>
+      </section>
+
+      <section class="card" id="auth-card">
+        <h2>👤 Access Logs</h2>
+        <div id="auth-log">Loading...</div>
+      </section>
+
+      <section class="card" id="ip-card">
+        <h2>🌍 IP / Threat Alerts</h2>
+        <div id="ip-log">Loading...</div>
+      </section>
+
+    </div>
+
+    <footer>
+      <p>© 2025 SentinelCore Systems | All activity monitored</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
