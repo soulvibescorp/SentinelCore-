@@ -1,28 +1,13 @@
-SentinelCore/
-├── core/
-│   ├── encryption.py         # AES-256-GCM w/ secure key storage
-│   ├── firewall.py           # Dynamic rule engine + port monitor
-│   ├── scanner.py            # Advanced mock AV + hash DB
-│   ├── auth.py               # Password vault, 2FA (TOTP/Duo ready)
-│   └── utils.py              # Logger, Hasher, Config Loader
-├── ui/
-│   ├── qt_main.py            # Futuristic PyQt6 interface
-│   ├── styles.qss            # Government-grade neon dark mode
-│   └── icons/                # SVG icons for UI
-├── cli/
-│   └── sentinel_cli.py       # Full-featured terminal utility
-├── config/
-│   └── config.json           # Port rules, security levels, logs
-├── storage/
-│   └── vault.db              # Encrypted local key vault (sqlite + AES)
-├── logs/
-│   └── sentinel.log          # Activity + threat logs
-├── tests/
-│   ├── test_encryption.py
-│   ├── test_firewall.py
-│   └── test_scanner.py
-├── scripts/
-│   └── start_gui.sh          # One-click launcher (cross-platform)
-├── requirements.txt
-├── README.md
-└── LICENSE
+# SentinelCore (v0.2 - Prototype)
+
+An elite-grade cyber shield for personal & professional use. Developed with cross-platform support, sleek GUI, and pluggable modules.
+
+## Features:
+- AES-256 GCM encryption
+- Firewall rule simulation
+- Encrypted password vault + 2FA support (TOTP)
+- PyQt6 GUI with dark neon aesthetic
+- CLI for advanced terminal users
+- Antivirus simulation with custom hash DB
+
+## Launch
